@@ -37,7 +37,7 @@ public class B_T2
 			return;
 		if(level==1)
 			System.out.print(root.data+" ");
-		if(level>1)
+		else if(level>1)
 		{
 			printGivenLevel(root.left,level-1);
 			printGivenLevel(root.right,level-1);
