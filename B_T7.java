@@ -1,7 +1,5 @@
 //Maximum width of a binary tree.
 import java.util.*;
-
-import B_T.B_T6.Node;
 public class B_T7 
 {
 	Node root;
